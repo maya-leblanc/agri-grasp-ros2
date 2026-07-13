@@ -1,0 +1,1 @@
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/ament_cmake_core/fruit_modelsConfig-version.cmake

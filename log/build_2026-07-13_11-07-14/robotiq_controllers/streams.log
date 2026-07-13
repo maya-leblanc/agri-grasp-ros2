@@ -1,0 +1,78 @@
+[0.009s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.111s] -- The CXX compiler identification is GNU 13.3.0
+[0.127s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.214s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.215s] -- Detecting C compile features
+[0.215s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.487s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.515s] -- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.555s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.796s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.799s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.833s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.887s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.889s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.904s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.906s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.915s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.119s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.132s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.199s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.199s] -- Configured cppcheck include dirs: /home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_controllers/include
+[1.199s] -- Configured cppcheck exclude dirs and/or files: 
+[1.200s] -- Added test 'lint_cmake' to check CMake code style
+[1.202s] -- Configuring done (1.2s)
+[1.215s] -- Generating done (0.0s)
+[1.218s] -- Build files have been written to: /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers
+[1.226s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers
+[1.229s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers -- -j22 -l22
+[1.278s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
+[3.995s] [100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
+[4.118s] [100%] Built target robotiq_controllers
+[4.129s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers -- -j22 -l22
+[4.130s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers
+[4.138s] -- Install configuration: ""
+[4.138s] -- Execute custom install script
+[4.138s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers//controller_plugins.xml
+[4.146s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+[4.152s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+[4.161s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+[4.168s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+[4.176s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+[4.184s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+[4.190s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+[4.197s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+[4.204s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+[4.211s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+[4.217s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+[4.224s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+[4.231s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+[4.238s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+[4.246s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+[4.252s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+[4.258s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.265s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[4.270s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[4.276s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.283s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+[4.290s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+[4.296s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/package.xml
+[4.303s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/lib/librobotiq_controllers.so
+[4.304s] -- Set non-toolchain portion of runtime path of "/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/lib/librobotiq_controllers.so" to ""
+[4.304s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+[4.304s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-noconfig.cmake
+[4.307s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers

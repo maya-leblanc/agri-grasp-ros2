@@ -1,0 +1,9 @@
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/uninstall.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/fruit_models_uninstall.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/test.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/edit_cache.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/rebuild_cache.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/list_install_components.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/install.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/install/local.dir
+/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models/CMakeFiles/install/strip.dir

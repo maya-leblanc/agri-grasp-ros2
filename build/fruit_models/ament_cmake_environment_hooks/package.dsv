@@ -1,0 +1,4 @@
+source;share/fruit_models/local_setup.bash
+source;share/fruit_models/local_setup.dsv
+source;share/fruit_models/local_setup.sh
+source;share/fruit_models/local_setup.zsh
