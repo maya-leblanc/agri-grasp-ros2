@@ -1,1 +1,65 @@
-/home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description/worlds/agri_grasp.world
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="agri_grasp_world">
+    <!-- The Physics system manages gravity, collisions, and forces -->
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    
+    <!-- UserCommands allows moving models around manually in the GUI -->
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    
+    <!-- SceneBroadcaster sends visual data over to the GUI window -->
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+
+    <!-- Global light source (The Sun) -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5   0.1 -0.9</direction>
+    </light>
+
+
+    <!-- 1. Include your custom STL Tree Branch -->
+    <include>
+      <uri>model://tree_branch</uri>
+      <name>my_tree_branch</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- 2. Include the target fruit (e.g., Orange or Peach) -->
+    <include>
+      <uri>model://orange</uri> 
+      <name>target_fruit</name>
+      <!-- Adjust this coordinate so the orange aligns with the tip of your STL mesh -->
+      <pose>-0.044353 0.105568 0.068297 0 0 0</pose> 
+    </include>
+
+    <!-- 3. The Dynamic Ball Joint (Stem) holding them together -->
+    <joint name="fruit_stem_joint" type="ball">
+      <!-- Format: parent_model_name::link_name -->
+      <parent>my_tree_branch::branch_link</parent>
+      <!-- Format: child_model_name::link_name (Check your orange's SDF for the link name!) -->
+      <child>target_fruit::orange_link</child> 
+      
+      <!-- Offset the anchor point slightly to pivot from the top of the fruit -->
+      <pose>0 0 0.04 0 0 0</pose> 
+    </joint>
+
+  </world>
+</sdf>

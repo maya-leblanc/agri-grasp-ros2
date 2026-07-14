@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/fruit_models -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models
+[0.094s] -- The C compiler identification is GNU 13.3.0
+[0.169s] -- The CXX compiler identification is GNU 13.3.0
+[0.191s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.695s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.932s] -- Configuring done (0.9s)
+[0.935s] -- Generating done (0.0s)
+[0.936s] -- Build files have been written to: /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models
+[0.944s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/fruit_models -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models
+[0.945s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models -- -j22 -l22
+[1.000s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models -- -j22 -l22
+[1.003s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models
+[1.015s] -- Install configuration: ""
+[1.015s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models
+[1.015s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple
+[1.015s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple.stl
+[1.020s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple_config.xml
+[1.020s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple_model.sdf
+[1.021s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear
+[1.021s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_config.xml
+[1.021s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_model.sdf
+[1.021s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear.stl
+[1.025s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/strawberry
+[1.025s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach
+[1.025s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach_config.xml
+[1.026s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach.stl
+[1.029s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach_model.sdf
+[1.029s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange
+[1.029s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/model.sdf
+[1.029s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/model.config
+[1.029s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/orange.stl
+[1.032s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/package_run_dependencies/fruit_models
+[1.032s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/parent_prefix_path/fruit_models
+[1.032s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/ament_prefix_path.sh
+[1.032s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/ament_prefix_path.dsv
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/path.sh
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/path.dsv
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.bash
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.sh
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.zsh
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.dsv
+[1.033s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/package.dsv
+[1.034s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/packages/fruit_models
+[1.034s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/cmake/fruit_modelsConfig.cmake
+[1.034s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/cmake/fruit_modelsConfig-version.cmake
+[1.034s] -- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/package.xml
+[1.037s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models

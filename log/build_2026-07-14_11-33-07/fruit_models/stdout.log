@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/maya/Documents/projects/agri-grasp-ros2/build/fruit_models
+-- Install configuration: ""
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple.stl
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple_config.xml
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/apple/apple_model.sdf
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_config.xml
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_model.sdf
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear.stl
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/strawberry
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach_config.xml
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach.stl
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/peach/peach_model.sdf
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/model.sdf
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/model.config
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/orange/orange.stl
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/package_run_dependencies/fruit_models
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/parent_prefix_path/fruit_models
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/ament_prefix_path.sh
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/ament_prefix_path.dsv
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/path.sh
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/path.dsv
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.bash
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.sh
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.zsh
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/local_setup.dsv
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/package.dsv
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/packages/fruit_models
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/cmake/fruit_modelsConfig.cmake
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/cmake/fruit_modelsConfig-version.cmake
+-- Installing: /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/package.xml

@@ -1,1 +1,7 @@
-/home/maya/Documents/projects/agri-grasp-ros2/src/fruit_models/models/apple/apple_config.xml
+<?xml version="1.0"?>
+<model>
+  <name>apple</name>
+  <version>1.0</version>
+  <sdf version="1.6">model.sdf</sdf>
+  <description>Apple fruit model for grasp planning</description>
+</model>
