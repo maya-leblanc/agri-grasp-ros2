@@ -43,6 +43,7 @@
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/worlds/agri_grasp.world
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
 /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh

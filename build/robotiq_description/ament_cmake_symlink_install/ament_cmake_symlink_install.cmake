@@ -315,8 +315,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "config" "launch" "meshes" "rviz" "urdf" "DESTINATION" "share/robotiq_description")
-ament_cmake_symlink_install_directory("/home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description" DIRECTORY "config" "launch" "meshes" "rviz" "urdf" "DESTINATION" "share/robotiq_description")
+# install(DIRECTORY "config" "launch" "meshes" "rviz" "urdf" "worlds" "DESTINATION" "share/robotiq_description")
+ament_cmake_symlink_install_directory("/home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description" DIRECTORY "config" "launch" "meshes" "rviz" "urdf" "worlds" "DESTINATION" "share/robotiq_description")
 
 # install(FILES "/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotiq_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description" FILES "/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotiq_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
