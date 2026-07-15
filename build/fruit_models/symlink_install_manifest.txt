@@ -10,6 +10,9 @@
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear.stl
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_config.xml
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/pear/pear_model.sdf
+/home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/tree_branch/model.config
+/home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/tree_branch/model.sdf
+/home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/models/tree_branch/tree_branch.stl
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/package_run_dependencies/fruit_models
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/ament_index/resource_index/parent_prefix_path/fruit_models
 /home/maya/Documents/projects/agri-grasp-ros2/install/fruit_models/share/fruit_models/environment/ament_prefix_path.sh
