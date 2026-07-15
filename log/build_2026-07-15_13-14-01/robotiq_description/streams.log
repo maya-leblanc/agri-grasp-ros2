@@ -1,0 +1,90 @@
+[0.007s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.166s] -- The CXX compiler identification is GNU 13.3.0
+[0.180s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.354s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.628s] -- Configuring done (0.6s)
+[0.630s] -- Generating done (0.0s)
+[0.630s] -- Build files have been written to: /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description
+[0.633s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/maya/Documents/projects/agri-grasp-ros2/src/ros2_robotiq_gripper/robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description
+[0.634s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description -- -j22 -l22
+[0.666s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description -- -j22 -l22
+[0.667s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description
+[0.674s] -- Install configuration: ""
+[0.674s] -- Execute custom install script
+[0.674s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[0.682s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/launch/gazebo.launch.py
+[0.688s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[0.694s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[0.702s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[0.707s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[0.713s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[0.722s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.727s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[0.733s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.741s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[0.750s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[0.758s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[0.765s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[0.773s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[0.781s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[0.787s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[0.795s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[0.803s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[0.810s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[0.816s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[0.824s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[0.829s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[0.837s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[0.845s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[0.852s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[0.859s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[0.868s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[0.876s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[0.885s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[0.893s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[0.902s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[0.910s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[0.918s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[0.926s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[0.932s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[0.938s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/models/tree_branch/model.config
+[0.947s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/models/tree_branch/model.sdf
+[0.953s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/models/tree_branch/tree_branch.stl
+[0.961s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[0.969s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[0.974s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[0.981s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[0.987s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[0.996s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[1.005s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[1.014s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[1.023s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[1.031s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/worlds/agri_grasp.world
+[1.039s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.046s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.053s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.061s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.069s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.077s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.084s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.091s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.097s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.106s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.113s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/package.dsv
+[1.121s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.129s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.136s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.144s] -- Symlinking: /home/maya/Documents/projects/agri-grasp-ros2/install/robotiq_description/share/robotiq_description/package.xml
+[1.152s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_description
