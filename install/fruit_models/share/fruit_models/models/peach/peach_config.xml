@@ -1,7 +1,1 @@
-<?xml version="1.0"?>
-<model>
-  <name>peach</name>
-  <version>1.0</version>
-  <sdf version="1.6">model.sdf</sdf>
-  <description>Peach fruit model for grasp planning</description>
-</model>
+/home/maya/Documents/projects/agri-grasp-ros2/src/fruit_models/models/peach/peach_config.xml

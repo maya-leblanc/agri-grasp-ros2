@@ -1,3 +1,1 @@
-source;share/robotiq_controllers/environment/ament_prefix_path.sh
-source;share/robotiq_controllers/environment/library_path.sh
-source;share/robotiq_controllers/environment/path.sh
+/home/maya/Documents/projects/agri-grasp-ros2/build/robotiq_controllers/ament_cmake_environment_hooks/local_setup.dsv
