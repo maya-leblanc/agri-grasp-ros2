@@ -4,25 +4,21 @@
     <static>true</static> 
     <link name="branch_link">
       <pose>0 0 0 0 0 0</pose>
-      
       <visual name="branch_visual">
-        <!-- Apply the exact corrective offsets here to center the mesh -->
-        <pose>0.0117 -0.0286 -0.3968 0 0 0</pose> 
+        <pose>0.117 -0.286 -3.968 0 0 0</pose> 
         <geometry>
           <mesh>
             <uri>model://tree_branch/tree_branch.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
       </visual>
-      
       <collision name="branch_collision">
-        <!-- Use the identical offsets so the physical collision matches -->
-        <pose>0.0117 -0.0286 -0.3968 0 0 0</pose> 
+        <pose>0.117 -0.286 -3.968 0 0 0</pose> 
         <geometry>
           <mesh>
             <uri>model://tree_branch/tree_branch.stl</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.01 0.01 0.01</scale>
           </mesh>
         </geometry>
       </collision>
