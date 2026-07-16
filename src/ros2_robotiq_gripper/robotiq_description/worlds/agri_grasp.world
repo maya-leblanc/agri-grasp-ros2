@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.9">
 <world name="agri_grasp_world">
-
+  <gravity>0 0 0</gravity>
   <plugin filename="gz-sim-physics-system"
           name="gz::sim::systems::Physics"/>
   <plugin filename="gz-sim-user-commands-system"
@@ -59,6 +59,10 @@
     <!-- Locked in from GUI coordinates -->
     <pose>-0.2600 0.1384 0.7665 -2.1000 -0.1000 -0.9878</pose> 
   </include>
+
+  <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+    <render_engine>ogre2</render_engine>
+  </plugin>
 
   <!-- The Swinging Joint -->
   <joint name="orange_stem_joint" type="ball">

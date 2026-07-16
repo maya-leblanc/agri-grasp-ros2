@@ -1,0 +1,7 @@
+ipdoctest.py
+setup.py
+../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/PKG-INFO
+../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt
+../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/dependency_links.txt
+../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/entry_points.txt
+../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+running egg_info
+creating ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info
+writing ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/dependency_links.txt
+writing entry points to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/entry_points.txt
+writing top-level names to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/top_level.txt
+writing manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build
+creating /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib
+copying ipdoctest.py -> /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib
+running install
+running install_lib
+copying /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib/ipdoctest.py -> /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages
+byte-compiling /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages/ipdoctest.py to ipdoctest.cpython-312.pyc
+running install_egg_info
+Copying ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info to /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages/IPython_doctest_plugin-0.1-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/install.log'

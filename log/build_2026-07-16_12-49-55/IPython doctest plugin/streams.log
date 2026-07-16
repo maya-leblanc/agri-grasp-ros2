@@ -1,0 +1,24 @@
+[0.563s] Invoking command in '/home/maya/Documents/projects/agri-grasp-ros2/myenv/lib/python3.12/site-packages/IPython/testing/plugin': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../build/IPython doctest plugin build --build-base /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build install --record /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/install.log --single-version-externally-managed
+[0.739s] running egg_info
+[0.740s] creating ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info
+[0.753s] writing ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/PKG-INFO
+[0.754s] writing dependency_links to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/entry_points.txt
+[0.754s] writing top-level names to ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/top_level.txt
+[0.754s] writing manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+[0.786s] reading manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+[0.786s] writing manifest file '../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info/SOURCES.txt'
+[0.786s] running build
+[0.787s] running build_py
+[0.787s] creating /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build
+[0.787s] creating /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib
+[0.787s] copying ipdoctest.py -> /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib
+[0.787s] running install
+[0.792s] running install_lib
+[0.807s] copying /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build/lib/ipdoctest.py -> /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages
+[0.807s] byte-compiling /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages/ipdoctest.py to ipdoctest.cpython-312.pyc
+[0.809s] running install_egg_info
+[0.824s] Copying ../../../../../../../build/IPython doctest plugin/IPython_doctest_plugin.egg-info to /home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages/IPython_doctest_plugin-0.1-py3.12.egg-info
+[0.825s] running install_scripts
+[0.932s] writing list of installed files to '/home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/install.log'
+[0.954s] Invoked command in '/home/maya/Documents/projects/agri-grasp-ros2/myenv/lib/python3.12/site-packages/IPython/testing/plugin' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maya/Documents/projects/agri-grasp-ros2/install/IPython doctest plugin/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../build/IPython doctest plugin build --build-base /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/build install --record /home/maya/Documents/projects/agri-grasp-ros2/build/IPython doctest plugin/install.log --single-version-externally-managed

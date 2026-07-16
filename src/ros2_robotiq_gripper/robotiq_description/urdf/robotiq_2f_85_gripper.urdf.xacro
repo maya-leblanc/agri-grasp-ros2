@@ -5,14 +5,19 @@
 
     <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_85_macro.urdf.xacro" />
 
-    <link name="world" />
-    <xacro:robotiq_gripper 
-        name="RobotiqGripperHardwareInterface" 
-        prefix="" 
-        parent="world" 
-        use_fake_hardware="$(arg use_fake_hardware)" 
+    <link name="base_floating">
+        <inertial>
+            <mass value="0.5"/>
+            <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3"/>
+        </inertial>
+    </link>
+    <xacro:robotiq_gripper
+        name="RobotiqGripperHardwareInterface"
+        prefix=""
+        parent="base_floating"
+        use_fake_hardware="$(arg use_fake_hardware)"
         com_port="$(arg com_port)"
-        include_ros2_control="false"> 
+        include_ros2_control="false">
         <origin xyz="0 0 0" rpy="0 0 0" />
     </xacro:robotiq_gripper>
 
