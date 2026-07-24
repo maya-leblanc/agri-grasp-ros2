@@ -8,7 +8,7 @@
 
 %% Configuration/Input; edit these before running
 
-cfg.stlFile = fullfile(fileparts(mfilename('fullpath')), '..', 'stl', 'strawberry.stl');
+cfg.stlFile = fullfile(fileparts(mfilename('fullpath')), '..', 'stl', 'strawberry_completed.stl');
 % performs a series of operations to construct the full path to a file.
 
 % mfilename('fullpath') is a function that returns the full path of current
